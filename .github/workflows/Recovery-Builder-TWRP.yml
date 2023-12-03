@@ -9,17 +9,17 @@ on:
         default: ''
         type: choice
         options:
-        - twrp-12.1
         - twrp-11
+        - twrp-12.1
         - twrp-9.0
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://github.com/tao1996/twrp'
+        default: 'https://github.com/tao1996/android_device_motorola_nio_twrp'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
-        default: 'master'
+        default: 'twrp-11.0'
       DEVICE_PATH:
         description: 'Specify your Device Path' # As is, just like your DEVICE_PATH in your BoardConfig.mk
         required: true
